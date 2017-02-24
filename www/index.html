@@ -1,49 +1,50 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html>
-	<head>
-		<title>nativeDroid II - jQueryMobile Template</title>
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <head>
+    
+      <title>Mi Abogado</title>
 
-		<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css" />
-		<link rel="stylesheet" href="//ajax.googleapis.com/ajax/libs/jquerymobile/1.4.5/jquery.mobile.min.css" />
-		<link rel="stylesheet" href="/vendor/waves/waves.min.css" />
-		<link rel="stylesheet" href="/vendor/wow/animate.css" />
-		<link rel="stylesheet" href="/css/nativedroid2.css" />
+      <meta charset="utf-8" />
+      <meta name="format-detection" content="telephone=no" />
+      <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
+      <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height" />
+      <link rel="shortcut icon" href="favicon.ico" />
+      
+      <!-- jQuery Mobile -->
+      <link rel="stylesheet" href="jquery.mobile-1.4.5.min.css" />
+	  <link rel="stylesheet" href="miabogado.min.css" />
+      <script src="jquery-1.9.1.min.js"></script>
+      <script src="jquery.mobile-1.4.5.min.js"></script>
+      
+      <!-- jDrupal -->
+      <script type="text/javascript" charset="utf-8" src="jdrupal-7.0.5.min.js"></script>
+      
+      <!-- DrupalGap -->
+      <script type="text/javascript" charset="utf-8" src="bin/drupalgap-7.0.2.min.js"></script>
+      <script type="text/javascript" charset="utf-8" src="app/settings.js"></script>
+      <link rel="stylesheet" href="css/drupalgap.css" />
+      
+      <!-- PhonelGap -->
+      <script type="text/javascript" charset="utf-8" src="cordova.js"></script>
+	  <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCMX3fsu1pCg54DULap1E-YlUR3E-_DpXM?" async defer></script>
+	  
+    </head>
+    <body>
 
-		<meta name="mobile-web-app-capable" content="yes">
-	 	<meta name="apple-mobile-web-app-capable" content="yes" />
-    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+      <!-- Mobile Application Splash Screen -->
+      <div id="_drupalgap_splash" data-role="page">
+         <div class="ui-content" data-role="content">
+            <div id="_drupalgap_splash_content">
+              <img src="images/drupalgap.png" alt="Miabogado" style="position: absolute; top: 50%; left: 50%; margin-left: -110px; margin-top: -90px;" />
+            </div>
+         </div>
+      </div>
 
-	</head>
-	<body>
+      <!-- Load DrupalGap -->
+      <script type="text/javascript">
+        drupalgap_onload();
+      </script>
 
-		<div data-role="page">
-
-			<nd2-include data-src="/examples/fragments/panel.left.html"></nd2-include>
-
-			<div data-role="panel" id="bottomsheet" data-animate="false" data-position='bottom' data-display="overlay">
-				<nd2-include data-src="/examples/fragments/bottom.sheet.html"></nd2-include>
-			</div>
-
-			<div data-role="header" data-position="fixed" class="wow fadeInDown" data-wow-delay="0.2s">
-				<a href="#bottomsheet" class="ui-btn ui-btn-right wow fadeIn" data-wow-delay='1.2s'><i class="zmdi zmdi-more-vert"></i></a>
-				<a href="#leftpanel" class="ui-btn ui-btn-left wow fadeIn" data-wow-delay='0.8s'><i class="zmdi zmdi-menu"></i></a>
-				<h1 class="wow fadeIn" data-wow-delay='0.4s'>Page Title</h1>
-			</div>
-
-			<div role="main" class="ui-content" data-inset="false">
-				<p>(home)</p>
-			</div>
-
-		</div>
-
-		<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-		<script src="//code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
-		<script src="//ajax.googleapis.com/ajax/libs/jquerymobile/1.4.5/jquery.mobile.min.js"></script>
-		<script src="/vendor/waves/waves.min.js"></script>
-		<script src="/vendor/wow/wow.min.js"></script>
-		<script src="/js/nativedroid2.js"></script>
-		<script src="/nd2settings.js"></script>
-
-	</body>
+    </body>
 </html>
+

@@ -1,78 +1,37 @@
-# nativeDroid2
+## What is DrupalGap?
 
-![nativeDroid2](http://nativedroid.godesign.ch/material/github_banner.jpg)
+> An open source application development kit for Drupal 7. [Try a demo...](http://demo.drupalgap.org) 
 
-jQueryMobile Template inspired by Material Design
+## What is DrupalGap used for?
 
-# Install
+> Build custom apps for Drupal 7, `with one set of code`, and then deploy them to a wide range of **app stores**, **devices** and **browsers**.
 
-  **git**
+## Tools and Features
 
-```git clone https://github.com/wildhaber/nativeDroid2.git```
+> By utilizing familiar coding syntax and concepts from Drupal 7 such as...
 
-  **bower**
+- Entities / Fields
+- Modules
+- Hooks
+- Themes
+- Regions
+- Blocks
+- Render Arrays
+- Custom Pages (via `hook_menu()`)
+- Forms API
+- User Roles / Permissions
 
-```bower install nativeDroid2```
+> with built in pages, widgets and forms to handle...
 
-# Demo & [Documentation](http://nativedroid.scripter.click)
+- User Authentication
+- Adding / Editing Entities
+- Displaying Entities / Fields
+- Rendering Views Result Data
 
-Basic Elements
--
-- [Typography and Text Elements](http://nd2.godesign.ch/examples/elements/text.html)
-- [Grid System](http://nd2.godesign.ch/examples/elements/grid.html)
-- [Buttons & FABS](http://nd2.godesign.ch/examples/elements/buttons.html)
-- [Header & Footer](http://nd2.godesign.ch/examples/elements/header_footer.html)
-- [Listviews](http://nd2.godesign.ch/examples/elements/listviews.html)
-- [Form](http://nd2.godesign.ch/examples/elements/forms.html)
-- [Table](http://nd2.godesign.ch/examples/elements/tables.html)
-- [Dialog & Popups](http://nd2.godesign.ch/examples/elements/dialog_popups.html)
-- [Panels](http://nd2.godesign.ch/examples/elements/panels.html)
-- [Autocomplete](http://nd2.godesign.ch/examples/elements/autocomplete.html)
-- [Collapsible & Accordions](http://nd2.godesign.ch/examples/elements/collapsible_accordions.html)
+> the DrupalGap tool set is dedicated to Drupal 7 application development.
 
-Extended Elements
--
-- [Tabs](http://nd2.godesign.ch/examples/extended/tabs.html)
-- [Cards](http://nd2.godesign.ch/examples/extended/cards.html)
-- [Search](http://nd2.godesign.ch/examples/extended/search.html)
-- [Snackbars & Toasts](http://nd2.godesign.ch/examples/extended/toasts.html)
-- [Charts](http://nd2.godesign.ch/examples/extended/charts.html)
-- [Icons](http://nd2.godesign.ch/examples/extended/icons.html)
-- [Bottom Sheets](http://nd2.godesign.ch/examples/extended/bottomsheet.html)
+- [Learn more about DrupalGap's innards](http://docs.drupalgap.org/7/Introduction/How_DrupalGap_Works)
 
-Widgets
--
-- [nd2-ad](http://nativedroid.scripter.click/nd2-ad/)
-- [nd2-include](http://nativedroid.scripter.click/nd2-include/)
+## Getting Started
 
-Nice to Know
--
-- [Colors & Styles](http://nd2.godesign.ch/info/colors_and_styles.html)
-- [Credits & License](http://nd2.godesign.ch/info/credits.html)
-
-# License
-*nativeDroid2 is distributed under the MIT-License*
-
-The MIT License (MIT)
-
-Copyright (c) 2015 Raphael Wildhaber, Godesign Webpublishing GmbH / http://nativedroid.godesign.ch
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-
-
+> Try the [Hello World](http://docs.drupalgap.org/7/Hello_World) for DrupalGap.

@@ -155,3 +155,493 @@ div[data-role="footer"] a.ui-btn.ui-btn-icon-notext {
  /* .ui-content{
 	 margin-top: 40px !important;
  } */
+ #front_page{
+	 background:url("../images/back_front.jpg") repeat scroll 0 0;
+	 background-size: 100% auto;
+ }
+#node_add_sos{
+	 background:url("../images/back.jpg") no-repeat scroll 0 0;
+	 background-size: 100% 100%;
+ }
+ .direction_page{
+	 background:url("../images/back.jpg") no-repeat scroll 0 0;
+	 background-size: 100% 100%;
+ }
+ 
+ #node_add_terminos_condiciones .region_footer,
+ #node_add_terminos_condiciones .ui-btn-right{
+	 display: none;
+ }
+ 
+ 
+ #node_add_sos label,
+ #node_add_sos .ui-input-text,
+ #node_add_sos .field-name-submit{
+	 display:none;
+	 box-shadow:none;
+	 border:none;
+ }
+.ui-nodisc-icon{
+	border: none !important;
+	background: transparent !important;
+}
+#edit-node-edit-cancel{
+	display: none;
+}
+
+.no-shadow{
+	border-radius: 0px !important;
+	box-shadow: none !important;
+}
+a.articulos {
+	background: #002232;
+	bottom: 240px;
+    padding: 10px;
+    position: absolute;
+    text-decoration: none;
+    box-shadow: none;
+	color: #ffffff !important;
+	text-shadow: none !important;
+}
+.jail {
+    background: url("../images/jail.png") no-repeat scroll 0 0 ;
+    border: medium none;
+	left: 50%;
+	top:40%;
+    margin-left: -75px;
+    padding: 160px 8px 0px;
+    position: absolute;
+    text-decoration: none;
+    box-shadow: none;
+	color: #000 !important;
+	text-shadow: none !important;
+	font-size:18px;
+	width: 140px;
+	text-align: center;
+	
+}
+.front_icon{	
+    border: medium none;
+    position: absolute;
+    text-decoration: none;
+    box-shadow: none;
+	color: #000 !important;
+	text-shadow: none !important;
+	text-align: center;
+}
+.message {
+    background: url("../images/rss.png") no-repeat scroll 0 0 ;
+}
+.facebook {
+    background: url("../images/facebook.png") no-repeat scroll 0 0 ;
+}
+.no_personal_info {
+    background: url("../images/no_personal.png") no-repeat scroll 0 0 ;
+}
+.personal_info {
+    background: url("../images/personal.png") no-repeat scroll 0 0 ;
+}
+.phone {
+    background: url("../images/call.png") no-repeat scroll 0 0 ;
+}
+.direction {
+    background: url("../images/map.png") no-repeat scroll 0 0 ;
+}
+.ask {
+    background: url("../images/ask.png") no-repeat scroll 0 0 ;
+}
+
+.directions .item{
+	border: 2px solid #cdcdcd;		
+	padding:10px;
+	margin-bottom: 10px;
+	background: #cdcdcd;
+}
+.directions h3{
+	text-align:center;
+	text-shadow: none;
+	margin: 0px !important;
+	padding: 0px !important;
+}
+.directions h4{
+	text-shadow: none;
+	margin: 0px !important;
+	padding: 0px !important;
+}
+
+.directions p{
+	color: #000000;
+	font-size: 17px !important;
+	text-decoration: none;
+	text-shadow: none;	
+	margin: 5px 0px !important;
+	padding: 3px 0px !important;
+}
+.directionto{
+	float: left;
+	width: 39%;
+	margin-left: 1%;
+	background: #002232 !important;
+	color: #ffffff !important;
+	text-shadow: none !important;	
+	border: 1px solid #002232 !important;	
+}
+.info{
+	padding: 20px;
+}
+.region_footer{
+	border: none;
+	background: none;
+}
+.region_footer ul {
+    margin: 0px !important;
+    padding:0px;
+}
+.region_footer ul li {
+    list-style: outside none none;
+}
+.region_footer ul li a {
+    border: medium none;
+    float: left;
+	background: none !important;
+	background: #a41818 !important;
+	text-shadow: none !important;
+	color: #ffffff;
+}
+
+.field-name-field-question-app textarea{
+	height: 300px !important;
+}
+
+
+/*==================== Articles view =================*/
+.ui-listview > .ui-li-has-thumb > .ui-btn, .ui-listview > .ui-li-static.ui-li-has-thumb {
+    padding-left: 10px !important;
+}
+
+.ui-listview .ui-li-has-thumb > img:first-child, .ui-listview .ui-li-has-thumb > .ui-btn > img:first-child, .ui-listview .ui-li-has-thumb .ui-li-thumb {
+    max-height: none !important;
+    max-width: none !important;
+	width: 100% !important;
+    position: relative !important;
+	padding-left: 3% !important;
+	
+}
+.node___edit .ui-navbar{
+	display: none !important;
+}
+#edit-node-edit-submit{
+	background: #002232 !important;
+}
+#edit-node-edit-delete{
+	display: none !important;
+}
+#node_add_terminos_condiciones .field-name-title{
+	display: none;
+}
+#node_add_terminos_condiciones .description{
+	display: table-header-group;
+	text-align: justify;
+}
+#node_add_terminos_condiciones .ui-checkbox{
+	display: table-footer-group;
+}
+a.ui-icon-back{
+	z-index:100 !important;
+}
+.form_suffix p{
+	text-align: center;
+	color: #000000;
+	text-shadow: none;
+}
+
+.field-name-field-nombre-contact{
+	border-top: 3px solid #cdcdcd;
+	padding-top: 20px;
+}
+.field-name-field-nombre-contact .description{
+	display: table-header-group;
+}
+.field-name-field-nombre-contact label{
+	display: table-row;
+}
+.field-name-field-nombre-contact .ui-input-text{
+	display: table-footer-group;
+}
+
+#my_personal_list_view .sos {
+	position: absolute;
+	background: #636363 ;
+	border: none;
+	text-shadow: none;
+	color: #ffffff;
+	box-shadow: 0px 0px 5px #636363;
+	border-radius: 0px !important;
+}
+#my_personal_list_view .sos_active {
+	position: absolute;
+	background: #a41818;
+	border: 1px solid #636363;
+	text-shadow: none;
+	color:#ffffff;
+	box-shadow: 0px 0px 5px #636363;
+	border-radius: 0px !important;
+}
+.help{
+	position: absolute;
+	text-align: center;
+	text-shadow: none !important;
+	color: #111111;
+	width: 88%;
+}
+.terminos{
+    position: absolute;
+   	text-align: center !important;;
+   	text-shadow: none !important;
+   	color: #0094d6 !important;
+	width: 88%;
+}
+
+#terminos_condiciones p{
+	text-align: justify;
+	width: 97%;
+	font-size: 14px;
+}
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-height : 479px) {
+    .help{
+        top: 120px;
+		font-size: 11px !important;
+	}
+	.terminos{
+    	top: 190px;
+		font-size: 11px !important;
+    }
+	 #front_page{
+    	 background-size: 100% auto !important;
+     }
+}
+
+@media only screen and (min-height : 480px) {
+  .help{
+        top: 150px;
+		font-size: 11px !important;
+	}
+	.terminos{
+        top: 220px;
+		font-size: 11px !important;
+  }
+}
+
+@media only screen and (max-width : 320px) {
+/* Styles */
+	#my_personal_list_view .sos_active,
+	#my_personal_list_view .sos {
+		bottom: 9px !important;
+		width: 80% !important;
+		font-size: 12px !important;
+	}
+	.row1{
+		bottom: 75px !important;
+		font-size:13px !important;
+		background-size: 55px 55px !important;
+		padding-top: 55px !important;
+	}
+	.row2{
+		bottom: 165px !important;
+		font-size:13px !important;
+		background-size: 55px 55px !important;
+		padding-top: 55px !important;
+	}
+	.message {
+		margin-left: 0px;
+		padding: 55px 0px 0px !important;
+		background-position: 10px 0px;
+	}
+	.facebook {
+		left: 50% !important;
+		margin-left: -30px !important;
+		padding: 55px 0px 0px !important;
+	}
+	.no_personal_info {
+		margin-right: 25px;
+		right: 0%;
+		padding-left: 5px !important;
+	}
+	.personal_info {
+		margin-right: 25px;
+		right: 0%;
+		padding-left: 5px !important;
+	}
+	.phone {
+		margin-left: 10px;
+		padding: 55px 6px 0px !important;
+	}
+	.direction {
+		left: 50% !important;
+		margin-left: -30px !important;
+		padding: 55px 0px 0px !important;
+	}
+	.ask {
+		margin-right: 25px;
+		right: 0%;
+		padding: 60px 0px 0px;
+	}
+	.field-name-field-question-app textarea{
+    	height: 200px !important;
+    }
+    .jail {
+        background-size: 100px !important;
+    	left: 50% !important;
+    	top:40% !important;
+        margin-left: -50px !important;
+        padding: 110px 0px 0px !important;
+    	font-size:14px !important;
+    	width: 100px !important;
+
+    }
+    .form_suffix p{
+        font-size: 13px !important;
+    }
+    .directions{
+     	padding: 5px !important;
+    }
+    .directions p{
+    	font-size: 13px !important;
+    }
+    .directionto{
+    	width: 35% !important;
+    	margin-left: 2% !important;
+    	font-size: 14px !important;
+    }
+}
+
+@media only screen and (min-width : 321px) and (max-width : 360px) {
+/* Styles */
+	#my_personal_list_view .sos_active,
+	#my_personal_list_view .sos {
+		bottom: 9px;
+		width: 83%;
+		font-size: 13px;
+	}
+	.region_footer ul li a {
+		margin: 0px;
+		padding: 10px 0;
+		width: 100%;
+		font-size: 14px !important;
+	}
+	.row1{
+		bottom: 80px;
+		font-size:15px;
+		background-size: 75px 75px;
+	}
+	.row2{
+		bottom: 200px;
+		font-size:15px;
+		background-size: 75px 75px;
+	}
+	.message {
+		margin-left: 0px;
+		padding: 95px 0px 0px !important;
+		background-position: 10px;
+	}
+	.facebook {
+		left: 50%;
+		margin-left: -40px;
+		padding: 75px 4px 0px;
+	}
+	.no_personal_info {
+		margin-right: 25px;
+		right: 0%;
+		padding: 75px 10px 0px;
+	}
+	.personal_info {
+		margin-right: 25px;
+		right: 0%;
+		padding: 90px 10px 0px;
+	}
+	.phone {
+		margin-left: 10px;
+		padding: 75px 14px 0px;
+	}
+	.direction {
+		left: 50%;
+		margin-left: -37px;
+		padding: 75px 3px 0px;
+	}
+	.ask {
+		margin-right: 35px;
+		right: 0%;
+		padding: 75px 0px 0px;
+	}
+}
+
+
+@media only screen and (min-width: 361px){
+/* Styles */
+	#my_personal_list_view .sos_active,
+	#my_personal_list_view .sos {
+		bottom: 9px;
+		width: 83%;
+		font-size: 15px;
+	}
+	.region_footer ul li a {
+		margin: 0px;
+		padding: 10px 0;
+		width: 100%;
+		font-size: 14px !important;
+	}
+    .help{
+        top: 200px !important;
+    	font-size: 13px !important;
+    }
+    .terminos{
+        top: 280px !important;
+    	font-size: 13px !important;
+     }
+	.row1{
+		bottom: 95px;
+		font-size:18px;
+		background-size: 80px 80px;
+	}
+	.row2{
+		bottom: 215px;
+		font-size:18px;
+		background-size: 80px 80px;
+	}
+	.message {
+		margin-left: 0px;
+		padding: 100px 0px 0px !important;
+		background-position: 10px;
+	}
+	.facebook {
+		left: 50%;
+		margin-left: -40px;
+		padding: 80px 0px 0px;
+	}
+	.no_personal_info {
+		margin-right: 30px;
+		right: 0%;
+		padding: 80px 6px 0px;
+	}
+	.personal_info {
+		margin-right: 30px;
+		right: 0%;
+		padding: 80px 6px 0px;
+	}
+	.phone {
+		margin-left: 10px;
+		padding: 80px 14px 0px;
+	}
+	.direction {
+		left: 50%;
+		margin-left: -40px;
+		padding: 80px 0px 0px;
+	}
+	.ask {
+		margin-right: 28px;
+		right: 0%;
+		padding: 80px 0px 0px;
+	}
+
+}
